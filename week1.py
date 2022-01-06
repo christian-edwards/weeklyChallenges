@@ -58,13 +58,12 @@ class CoffeeShop:
                 print(x.item)
 
 
+#  Test Code
 item1 = MenuItem("Coffee", "drink", 4.99)
 item2 = MenuItem("Cake Pop", "food", 2.99)
 item3 = MenuItem("Lemonade", "drink", 3.50)
 item4 = MenuItem("Water", "drink", 1.50)
 itemList = [item1, item2, item3, item4]
-
-
 testShop = CoffeeShop("CharBux", itemList)
 testShop.cheapestitem()
 testShop.addorder("Coffee")
